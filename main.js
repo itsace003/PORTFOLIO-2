@@ -28,10 +28,9 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 // Scroll Reveal
 
 const sr = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 2000,
-    reset: true
+    distance: '0px', // fade in only, no upward movement
+    duration: 1000,
+    reset: false
 })
 
 sr.reveal('.home-title', {} )
