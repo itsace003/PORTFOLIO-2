@@ -48,6 +48,14 @@ sr.reveal('.skills-text', {delay: 150} )
 sr.reveal('.skills-data', {interval: 200} )
 sr.reveal('.skills-img', {delay: 400} )
 
-sr.reveal('.work-img', {interval: 200} )
+sr.reveal('.work-card', {interval: 200} )
 
 sr.reveal('.contact-input', {interval: 200} )
+
+const viewAllBtn = document.getElementById('view-all-work');
+const workContainer = document.querySelector('.work-container');
+if(viewAllBtn && workContainer) {
+    viewAllBtn.addEventListener('click', () => {
+        workContainer.classList.toggle('expanded');
+    });
+}
