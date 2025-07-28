@@ -368,6 +368,64 @@ img {
     margin: 0 var(--mb2);
 }
 
+/* SOCIAL ICONS ANIMATION */
+.social-icons {
+    padding: 0;
+    list-style: none;
+    margin: 1em;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.social-icons i {
+    color: #000;
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    box-shadow: none;
+    -webkit-transition: all 265ms ease-out;
+    transition: all 265ms ease-out;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons a:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    background: var(--first-color);
+    box-shadow: none;
+    -webkit-transition: all 265ms ease-out;
+    transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 265ms ease-in;
+    transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+    -webkit-transform: scale(2.2);
+    transform: scale(2.2);
+    color: var(--first-color);
+    box-shadow: none;
+    -webkit-transition: all 265ms ease-in;
+    transition: all 265ms ease-in;
+}
+
 /*MEDIA QUERIES*/
 
 @media screen and (min-width: 769px) {
