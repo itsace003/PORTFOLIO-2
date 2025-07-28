@@ -237,9 +237,7 @@ img {
 
 .work { text-align: center; }
 .work-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
     margin-bottom: var(--mb2);
 }
 
@@ -251,8 +249,28 @@ img {
     gap: 1rem;
     scroll-snap-type: x mandatory;
     padding-bottom: 1rem;
+    scrollbar-width: none;
 }
     .work-container.expanded { flex-wrap: wrap; overflow-x: hidden; }
+
+    .work-container::-webkit-scrollbar { display: none; }
+
+.work-wrapper { position: relative; }
+
+.scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--first-color);
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.scroll-arrow.left { left: 0; }
+.scroll-arrow.right { right: 0; }
 
 .work-card {
     flex: 0 0 calc(33.333% - 1rem);

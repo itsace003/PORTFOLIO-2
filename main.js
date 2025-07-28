@@ -52,10 +52,18 @@ sr.reveal('.work-card', {interval: 200} )
 
 sr.reveal('.contact-input', {interval: 200} )
 
-const viewAllBtn = document.getElementById('view-all-work');
+// Work section scroll arrows
 const workContainer = document.querySelector('.work-container');
-if(viewAllBtn && workContainer) {
-    viewAllBtn.addEventListener('click', () => {
-        workContainer.classList.toggle('expanded');
+const leftArrow = document.getElementById('work-left');
+const rightArrow = document.getElementById('work-right');
+
+if (leftArrow && rightArrow && workContainer) {
+    leftArrow.addEventListener('click', () => {
+        workContainer.scrollBy({left: -workContainer.clientWidth, behavior: 'smooth'});
+    });
+
+    rightArrow.addEventListener('click', () => {
+        workContainer.scrollBy({left: workContainer.clientWidth, behavior: 'smooth'});
     });
 }
+
