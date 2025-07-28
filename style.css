@@ -236,6 +236,14 @@ img {
 /*WORK*/
 
 .work { text-align: center; }
+.work-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--mb2);
+}
+
+.work-header .section-title { margin-bottom: 0; }
 .work-container {
     display: flex;
     flex-wrap: nowrap;
@@ -265,6 +273,7 @@ img {
     color: var(--first-color);
     padding: .5rem 1rem;
     cursor: pointer;
+    display: inline-block;
 }
 
 /*CONTACT*/
