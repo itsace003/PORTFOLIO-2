@@ -268,8 +268,8 @@ img {
     z-index: 1;
 }
 
-.scroll-arrow.left { left: var(--mb2); }
-.scroll-arrow.right { right: var(--mb2); }
+.scroll-arrow.left { left: var(--mb6); }
+.scroll-arrow.right { right: var(--mb6); }
 
 .work-card {
     flex: 0 0 calc(33.333% - 1rem);
