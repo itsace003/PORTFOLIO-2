@@ -293,12 +293,12 @@ img {
 .work-card-desc { padding: 0 .5rem 1rem; flex-grow: 1; }
 
 .work-card-button {
-    margin: 0 .5rem 1rem;
+    margin: var(--mb1) auto 1rem;
     background: none;
     border: 1px solid var(--first-color);
     color: var(--first-color);
     padding: .5rem 1rem;
-    align-self: flex-start;
+    align-self: center;
     cursor: pointer;
     text-decoration: none;
 }
