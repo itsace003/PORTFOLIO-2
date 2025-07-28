@@ -238,7 +238,7 @@ img {
 .work { text-align: center; }
 .work-header {
     text-align: center;
-    margin-bottom: var(--mb2);
+    margin-bottom: var(--mb4);
 }
 
 .work-header .section-title { margin-bottom: 0; }
@@ -344,6 +344,8 @@ img {
     .section { padding-top: 4rem; padding-bottom: 3rem; }
     .section-title { margin-bottom: var(--mb6); }
         .section-title::after { width: 80px; top: 3rem; }
+
+    .work-header { margin-bottom: var(--mb6); }
 
     .nav { height: calc(var(--header-height) + 1rem); }
     .nav-list { display: flex; padding-top: 0; }
