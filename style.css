@@ -180,6 +180,10 @@ img {
     border-radius: .5rem;
 }
 
+.scroll-button i {
+    font-size: 2rem;
+}
+
     .button:hover { box-shadow: 0 10px 36px rgba(0, 0, 0, .15); }
 
 /*ABOUT*/
