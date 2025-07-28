@@ -251,7 +251,6 @@ img {
     padding-bottom: 1rem;
     scrollbar-width: none;
 }
-    .work-container.expanded { flex-wrap: wrap; overflow-x: hidden; }
 
     .work-container::-webkit-scrollbar { display: none; }
 
@@ -373,7 +372,6 @@ img {
 
     .about-img img { width: 300px; }
 
-    .work-container.expanded { flex-wrap: wrap; }
 
     .contact-form { width: 460px; }
     .contact-container { justify-items: center; }
