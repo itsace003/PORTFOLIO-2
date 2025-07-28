@@ -263,13 +263,13 @@ img {
     background: none;
     border: none;
     color: var(--first-color);
-    font-size: 2rem;
+    font-size: 3rem;
     cursor: pointer;
     z-index: 1;
 }
 
-.scroll-arrow.left { left: 0; }
-.scroll-arrow.right { right: 0; }
+.scroll-arrow.left { left: var(--mb2); }
+.scroll-arrow.right { right: var(--mb2); }
 
 .work-card {
     flex: 0 0 calc(33.333% - 1rem);
