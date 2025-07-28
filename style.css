@@ -180,6 +180,17 @@ img {
     border-radius: .5rem;
 }
 
+.scroll-button i {
+    font-size: 2rem;
+}
+
+.scroll-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 1.1rem;
+}
+
     .button:hover { box-shadow: 0 10px 36px rgba(0, 0, 0, .15); }
 
 /*ABOUT*/
