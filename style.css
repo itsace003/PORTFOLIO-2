@@ -418,3 +418,18 @@ img {
 
     .show { right: 0; }
 }
+@media screen and (max-width: 576px) {
+    .work-card { flex: 0 0 80%; }
+    .scroll-arrow { display: none; }
+    .home-img {
+        position: relative;
+        width: 60%;
+        margin: 0 auto;
+        right: auto;
+        bottom: auto;
+    }
+    .home-img img {
+        width: 100%;
+        height: auto;
+    }
+}
