@@ -273,7 +273,10 @@ img {
 
 .work-card {
     flex: 0 0 calc(33.333% - 1rem);
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
+    border: 1px solid var(--first-color);
     border-radius: .5rem;
     overflow: hidden;
     scroll-snap-align: start;
@@ -281,7 +284,24 @@ img {
     .work-card img { width: 100%; transition: 1s; cursor: pointer; }
         .work-card img:hover { transform: scale(1.1); }
 
-.work-title { padding: .5rem; color: var(--first-color); }
+.work-card-title {
+    padding: .5rem;
+    color: var(--first-color);
+    text-align: center;
+}
+
+.work-card-desc { padding: 0 .5rem 1rem; flex-grow: 1; }
+
+.work-card-button {
+    margin: 0 .5rem 1rem;
+    background: none;
+    border: 1px solid var(--first-color);
+    color: var(--first-color);
+    padding: .5rem 1rem;
+    align-self: flex-start;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 .view-all-button {
     margin-top: 1rem;
