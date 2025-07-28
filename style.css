@@ -383,10 +383,11 @@ img {
 }
 
 .social-icons i {
-    color: #fff;
+    color: #000;
     position: absolute;
     top: 21px;
     left: 21px;
+    box-shadow: none;
     -webkit-transition: all 265ms ease-out;
     transition: all 265ms ease-out;
 }
@@ -403,7 +404,8 @@ img {
     height: 60px;
     border-radius: 100%;
     display: block;
-    background: linear-gradient(45deg, var(--first-color), #000);
+    background: var(--first-color);
+    box-shadow: none;
     -webkit-transition: all 265ms ease-out;
     transition: all 265ms ease-out;
 }
@@ -419,9 +421,7 @@ img {
     -webkit-transform: scale(2.2);
     transform: scale(2.2);
     color: var(--first-color);
-    background: -webkit-linear-gradient(45deg, var(--first-color), #000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    box-shadow: none;
     -webkit-transition: all 265ms ease-in;
     transition: all 265ms ease-in;
 }
