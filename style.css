@@ -283,6 +283,15 @@ img {
 
 .work-title { padding: .5rem; color: var(--first-color); }
 
+.view-all-button {
+    margin-top: 1rem;
+    background: none;
+    border: 1px solid var(--first-color);
+    color: var(--first-color);
+    padding: .5rem 1rem;
+    cursor: pointer;
+    display: inline-block;
+}
 
 /*CONTACT*/
 .contact-input {
