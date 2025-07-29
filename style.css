@@ -491,3 +491,10 @@ img {
 
     .show { right: 0; }
 }
+
+@media screen and (max-width: 480px) {
+    .home-img, .home-img img {
+        width: 200px;
+        height: 200px;
+    }
+}
