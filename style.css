@@ -495,12 +495,12 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 100px;
 	}
 
     .home-img img {
-        width: 295px;
-        height: 295px;
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
     }
 }
