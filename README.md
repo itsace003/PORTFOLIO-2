@@ -1,7 +1,5 @@
 # Portfolio Website
 
-LIVE ON - https://itsace003.github.io/PORTFOLIO-2/
-
 This repository contains a simple personal portfolio site built with HTML, CSS and JavaScript. The code was transcribed from the provided CodePen snippet.
 
 ## Usage
