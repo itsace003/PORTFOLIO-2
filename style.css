@@ -143,12 +143,15 @@ img {
     background-color: var(--first-color);
 }
 
-.home { height: calc(100vh - 3rem); row-gap: 1rem; }
+.home { height: calc(100vh - 3rem); row-gap: 1rem;  position: relative; }
 .home-data { align-self: center; }
-.home-title { font-size: var(--big-font-size); margin-bottom: var(--mb2); }
+.home-title {
+    font-size: var(--big-font-size);
+    margin-bottom: 0;
+}
 .home-subtitle {
     font-size: 1.5rem;
-    margin-bottom: var(--mb4);
+    margin: 0 0 var(--mb4);
 }
 .home-title-color { color: var(--first-color); }
 .home-social { display: flex; flex-direction: column; }
@@ -447,7 +450,7 @@ img {
     .nav-link { color: var(--first-color); }
 
     .home { height: 100vh; }
-    .home-data { align-self: flex-end; }
+    .home-data { align-self: center; }
 
     .home-social {
         padding-top: 0;
@@ -457,7 +460,7 @@ img {
     }
 
     .home-social-icon { margin-bottom: 0; margin-right: var(--mb4); }
-    .home-img { width: 457px; height: 475px; bottom: 15%; }
+    .home-img { width: 457px; height: 475px; top: 50%; bottom: auto; transform: translateY(-50%); }
 
     .about-container, .skills-container {
         grid-template-columns: repeat(2, 1fr);
