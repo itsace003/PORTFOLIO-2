@@ -490,11 +490,17 @@ img {
     }
 
     .show { right: 0; }
-}
+	
+	.home-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 295px;
+	}
 
-@media screen and (max-width: 480px) {
-    .home-img, .home-img img {
-        width: 200px;
-        height: 200px;
+    .home-img img {
+        width: 295px;
+        height: 295px;
+        border-radius: 50%;
     }
 }
