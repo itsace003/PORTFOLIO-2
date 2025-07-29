@@ -7,7 +7,6 @@
     --second-color: #00ff00;
 
     --body-font: 'Courier New', Courier, monospace;
-    --big-font-size: 2rem;
     --h2-font-size: 1.25rem;
     --normal-font-size: .938rem;
 
@@ -26,7 +25,6 @@
 
 @media screen and (min-width: 768px) {
     :root {
-        --big-font-size: 3.5rem;
         --h2-font-size: 2rem;
         --normal-font-size: 1rem;
     }
@@ -145,7 +143,8 @@ img {
 
 .home { height: calc(100vh - 3rem); row-gap: 1rem; }
 .home-data { align-self: center; }
-.home-title { font-size: var(--big-font-size); margin-bottom: var(--mb5); }
+.home-title { font-size: 2.25rem; margin-bottom: var(--mb5); }
+.home-subtitle { font-size: 1rem; margin-top: -0.5rem; }
 .home-title-color { color: var(--first-color); }
 .home-social { display: flex; flex-direction: column; }
 .home-social-icon {
