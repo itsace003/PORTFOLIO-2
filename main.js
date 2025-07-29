@@ -35,9 +35,10 @@ const sr = ScrollReveal({
 })
 
 sr.reveal('.home-title', {} )
+sr.reveal('.home-subtitle', {delay: 100} )
 sr.reveal('.button', {delay: 200} )
 sr.reveal('.home-img', {delay: 400} )
-sr.reveal('.home-social', {delay: 400,} )
+sr.reveal('.home-social', {delay: 400} )
 
 sr.reveal('.about-img', {} )
 sr.reveal('.about-subtitle', {delay: 200} )
