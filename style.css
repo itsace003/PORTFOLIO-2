@@ -145,7 +145,11 @@ img {
 
 .home { height: calc(100vh - 3rem); row-gap: 1rem; }
 .home-data { align-self: center; }
-.home-title { font-size: var(--big-font-size); margin-bottom: var(--mb5); }
+.home-title { font-size: var(--big-font-size); margin-bottom: var(--mb2); }
+.home-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: var(--mb4);
+}
 .home-title-color { color: var(--first-color); }
 .home-social { display: flex; flex-direction: column; }
 .home-social-icon {
