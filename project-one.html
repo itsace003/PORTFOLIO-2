@@ -38,19 +38,26 @@
                 <p class="work-card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula sapien id sapien consequat, nec faucibus magna fermentum.</p>
 <div class="code-block">
 <pre><code># Load dataset
-data = [1, 2, 3]</code></pre>
+import pandas as pd
+df = pd.read_csv('data.csv')
+</code></pre>
 </div>
                 <h3 class="work-card-title">Development</h3>
                 <p class="work-card-desc">Curabitur at lectus eu urna commodo efficitur. Suspendisse potenti. Donec vitae tortor in quam convallis cursus.</p>
 <div class="code-block">
 <pre><code># Train model
-model.fit(data)</code></pre>
+from sklearn.linear_model import LinearRegression
+model = LinearRegression()
+model.fit(df)
+</code></pre>
 </div>
                 <h3 class="work-card-title">Outcome</h3>
                 <p class="work-card-desc">Integer ac mauris ut lorem posuere ultrices. Aenean sit amet nulla non erat fringilla porttitor vitae non est.</p>
 <div class="code-block">
 <pre><code># Evaluate results
-print(model.score)</code></pre>
+score = model.score(df)
+print(score)
+</code></pre>
 </div>
             </div>
         </section>
