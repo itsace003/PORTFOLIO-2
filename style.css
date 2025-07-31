@@ -434,6 +434,8 @@ img {
 .blog-container { row-gap: var(--mb4); }
 .blog-container h3 { margin-bottom: var(--mb1); color: var(--first-color); }
 .blog-container p { margin-bottom: var(--mb3); }
+.code-block { background:#1e1e1e; color:#eee; padding:1rem; margin-bottom:var(--mb4); border-radius:0.3rem; font-family:monospace; overflow-x:auto; box-shadow:0 0 10px rgba(0,0,0,0.5); }
+.code-block pre{ margin:0; }
 /*MEDIA QUERIES*/
 
 @media screen and (min-width: 769px) {
