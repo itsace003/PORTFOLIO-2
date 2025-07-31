@@ -430,6 +430,10 @@ img {
     transition: all 265ms ease-in;
 }
 
+/*BLOG PAGE*/
+.blog-container { row-gap: var(--mb4); }
+.blog-container h3 { margin-bottom: var(--mb1); color: var(--first-color); }
+.blog-container p { margin-bottom: var(--mb3); }
 /*MEDIA QUERIES*/
 
 @media screen and (min-width: 769px) {
