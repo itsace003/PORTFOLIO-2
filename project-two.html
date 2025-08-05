@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Two</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav-logo">Chinmay Chalke</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="index.html#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="index.html#work" class="nav-link active">Work</a></li>
+                    <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="work section">
+            <div class="work-header">
+                <h2 class="section-title">Project Two</h2>
+            </div>
+            <div class="bd-grid blog-container">
+                <h3 class="work-card-title">Introduction</h3>
+                <p class="work-card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula sapien id sapien consequat, nec faucibus magna fermentum.</p>
+<div class="code-block">
+    <ol>
+        <li><code># Load dataset</code></li>
+        <li><code>import pandas as pd</code></li>
+        <li><code>df = pd.read_csv('data.csv')</code></li>
+    </ol>
+</div>
+                <h3 class="work-card-title">Development</h3>
+                <p class="work-card-desc">Curabitur at lectus eu urna commodo efficitur. Suspendisse potenti. Donec vitae tortor in quam convallis cursus.</p>
+<div class="code-block">
+    <ol>
+        <li><code># Train model</code></li>
+        <li><code>from sklearn.linear_model import LinearRegression</code></li>
+        <li><code>model = LinearRegression()</code></li>
+        <li><code>model.fit(df)</code></li>
+    </ol>
+</div>
+                <h3 class="work-card-title">Outcome</h3>
+                <p class="work-card-desc">Integer ac mauris ut lorem posuere ultrices. Aenean sit amet nulla non erat fringilla porttitor vitae non est.</p>
+<div class="code-block">
+    <ol>
+        <li><code># Evaluate results</code></li>
+        <li><code>score = model.score(df)</code></li>
+        <li><code>print(score)</code></li>
+    </ol>
+</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-title">Chinmay Chalke</p>
+        <ul class="social-icons">
+            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+        </ul>
+        <p>&#169; 2025 Copyright all rights reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
