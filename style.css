@@ -259,15 +259,10 @@ img {
 .work-header .section-title { margin-bottom: 0; }
 .work-container {
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    flex-wrap: wrap;
     gap: 1rem;
-    scroll-snap-type: x mandatory;
     padding-bottom: 1rem;
-    scrollbar-width: none;
 }
-
-    .work-container::-webkit-scrollbar { display: none; }
 
 .work-wrapper { position: relative; }
 
