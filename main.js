@@ -54,17 +54,21 @@ sr.reveal('.work-card', {interval: 200} )
 sr.reveal('.contact-input', {interval: 200} )
 
 // Work section scroll arrows
-const workContainer = document.querySelector('.work-container');
-const leftArrow = document.getElementById('work-left');
-const rightArrow = document.getElementById('work-right');
+document.querySelectorAll('.work-wrapper').forEach(wrapper => {
+    const container = wrapper.querySelector('.work-container');
+    const left = wrapper.querySelector('.scroll-arrow.left');
+    const right = wrapper.querySelector('.scroll-arrow.right');
 
-if (leftArrow && rightArrow && workContainer) {
-    leftArrow.addEventListener('click', () => {
-        workContainer.scrollBy({left: -workContainer.clientWidth, behavior: 'smooth'});
-    });
+    if (container && left) {
+        left.addEventListener('click', () => {
+            container.scrollBy({ left: -container.clientWidth, behavior: 'smooth' });
+        });
+    }
 
-    rightArrow.addEventListener('click', () => {
-        workContainer.scrollBy({left: workContainer.clientWidth, behavior: 'smooth'});
-    });
-}
+    if (container && right) {
+        right.addEventListener('click', () => {
+            container.scrollBy({ left: container.clientWidth, behavior: 'smooth' });
+        });
+    }
+});
 
