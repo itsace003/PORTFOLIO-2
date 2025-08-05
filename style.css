@@ -443,6 +443,7 @@ img {
     font-family: 'Courier New', monospace;
     overflow-x: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
 }
 
 .code-block ol {
