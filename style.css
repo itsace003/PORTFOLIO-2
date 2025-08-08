@@ -249,7 +249,6 @@ img {
     margin-bottom: var(--mb4);
     line-height: 1.6;
 }
-.skills-img { border-radius: .5rem; }
 
 /*WORK*/
 
@@ -498,9 +497,15 @@ img {
     .home-social-icon { margin-bottom: 0; margin-right: var(--mb4); }
     .home-img { width: 457px; height: 475px; bottom: 15%; }
 
-    .about-container, .skills-container {
+    .about-container {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
+        text-align: initial;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: flex-start;
         text-align: initial;
     }
 

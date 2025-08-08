@@ -45,7 +45,6 @@ sr.reveal('.about-subtitle', {delay: 200} )
 sr.reveal('.about-text', {delay: 400} )
 
 sr.reveal('.skills-data', {interval: 200} )
-sr.reveal('.skills-img', {delay: 400} )
 
 sr.reveal('.work-card', {interval: 200} )
 
