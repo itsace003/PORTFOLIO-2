@@ -242,10 +242,10 @@ img {
     z-index: var(--z-back);
 }
 
-.skills-html { width: 95%; }
-.skills-css { width: 85%; }
-.skills-js { width: 65%; }
-.skills-ux { width: 85%; }
+.skills-python { width: 95%; }
+.skills-sql { width: 90%; }
+.skills-cloud { width: 80%; }
+.skills-frontend { width: 85%; }
 .skills-img { border-radius: .5rem; }
 
 /*WORK*/
