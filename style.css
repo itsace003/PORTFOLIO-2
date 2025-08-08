@@ -133,6 +133,31 @@ img {
     cursor: pointer;
 }
 
+/* Dropdown Menu */
+.dropdown { position: relative; }
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000;
+    padding: 0.5rem 0;
+}
+.dropdown-menu .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .dropdown-menu {
+        position: static;
+    }
+}
+
 .active::after {
     position: absolute;
     content: '';
