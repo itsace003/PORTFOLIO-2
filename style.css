@@ -259,9 +259,17 @@ img {
 .work-header .section-title { margin-bottom: 0; }
 .work-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 1rem;
     padding-bottom: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.work-container::-webkit-scrollbar {
+    display: none;
 }
 
 .work-wrapper { position: relative; }
