@@ -242,10 +242,15 @@ img {
     z-index: var(--z-back);
 }
 
-.skills-python { width: 95%; }
-.skills-sql { width: 90%; }
-.skills-cloud { width: 80%; }
-.skills-frontend { width: 85%; }
+.skills-backend { width: 95%; }
+.skills-ml { width: 90%; }
+.skills-database { width: 85%; }
+.skills-frontend { width: 80%; }
+.skills-bullets {
+    text-align: left;
+    margin-bottom: var(--mb4);
+    line-height: 1.6;
+}
 .skills-img { border-radius: .5rem; }
 
 /*WORK*/
