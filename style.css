@@ -207,8 +207,6 @@ img {
 /*SKILLS*/
 
 .skills-container { row-gap: 2rem; text-align: center; }
-.skills-subtitle { margin-bottom: var(--mb2); }
-.skills-text { margin-bottom: var(--mb4); }
 .skills-data {
     display: flex;
     justify-content: space-between;
